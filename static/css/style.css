@@ -75,6 +75,8 @@ h4 {
     right: 0;
     bottom: 0;
     z-index: -1;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
 }
 
 .navbar .navbar-brand {
@@ -374,12 +376,8 @@ h4 {
         margin: 1em auto 0 auto;
     }
 
-    #home .navbar {
-        background: rgb(43,194,208);
-        background: -moz-linear-gradient(90deg, rgba(43,194,208,1) 0%, rgba(74,193,140,1) 35%, rgba(89,204,58,1) 100%);
-        background: -webkit-linear-gradient(90deg, rgba(43,194,208,1) 0%, rgba(74,193,140,1) 35%, rgba(89,204,58,1) 100%);
-        background: linear-gradient(90deg, rgba(43,194,208,1) 0%, rgba(74,193,140,1) 35%, rgba(89,204,58,1) 100%);
-        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2bc2d0",endColorstr="#59cc3a",GradientType=1);
+    .navbar-back {
+        background: rgba(0,0,0,.7);
     }
     #home .navbar .navbar-collapse .navbar-nav .btn {
         position: static;
