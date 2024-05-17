@@ -200,7 +200,7 @@ h4 {
     background: #4ac18c;
 }
 
-#owl-achievements .item img {
+.projects .item img {
     background: white;
     border-radius: 10px;
 }
@@ -285,7 +285,7 @@ h4 {
 
 #mentors .row p {
     font-size: 0.8em;
-} 
+}
 
 /*=======================================================
 			ТЕХНОЛОГИИ:
