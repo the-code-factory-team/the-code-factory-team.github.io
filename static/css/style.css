@@ -1,11 +1,11 @@
-@import url("https://fonts.googleapis.com/css?family=Noto Sans:300,400,500,600,700");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
 
 /*=======================================================
 			BODY:
 ========================================================*/
 
 body {
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Comfortaa', sans-serif;
     line-height: 1.8;
     letter-spacing: 0.05em;
     color: white;
