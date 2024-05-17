@@ -45,8 +45,6 @@
 
     <header id="home">
 
-        <!-- /// Navbar /// -->
-
         <nav class="navbar navbar-expand-lg fixed-top">
             <div class="navbar-back"></div>
             <div class="container-fluid">
@@ -59,19 +57,16 @@
 
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link page-scroll" href="#home">Главная</a>
+                            <a class="nav-link page-scroll" href="#home"><i class="fa-solid fa-house"></i> Главная</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link page-scroll" href="#projects">Проекты</a>
+                            <a class="nav-link page-scroll" href="#projects"><i class="fa-solid fa-diagram-project"></i> Проекты</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link page-scroll" href="#team">Команда</a>
+                            <a class="nav-link page-scroll" href="#team"><i class="fa-solid fa-users"></i> Команда</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link page-scroll" href="#technology">Технологии</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="https://github.com/the-code-factory-team">GitHub</a>
+                            <a class="nav-link" href="https://github.com/the-code-factory-team"><i class="fa-brands fa-github"></i> GitHub</a>
                         </li>
                     </ul>
 
@@ -79,12 +74,10 @@
             </div>
         </nav>
 
-        <!-- /// BANNER /// -->
         <div class="banner">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-md-8">
-                        <!-- // Caption // -->
                         <div class="caption">
                             <h1>The Code Factory</h1>
                             <p class="sub">Команда кодеров из Липецка</p>
@@ -103,12 +96,12 @@
     ПРОЕКТЫ
     =============================================== -->
 
-    <section id="projects">
+    <section id="projects" class="projects">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-sm-offset-2 col-md-offset-3 text-center title-container">
-                    <!-- /// Title /// -->
-                    <h2 class="section-title">Проекты</h2>
+
+                    <h2 class="section-title"><i class="fa-solid fa-diagram-project"></i><br>Проекты</h2>
                     <p>наши творения...</p>
                 </div>
             </div>
@@ -121,26 +114,49 @@
     </section>
 
     <!-- ==============================================
+    ДОСТИЖЕНИЯ
+    =============================================== -->
+
+    <section id="achievements" class="projects">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-offset-2 col-md-offset-3 text-center title-container">
+
+                    <h2 class="section-title"><i class="fa-solid fa-trophy"></i><br>Достижения</h2>
+                    <p>то, чего мы достигли, и проекты в которых участвовали</p>
+                </div>
+            </div>
+            <div class="row">
+                <div id="owl-achievements" class="owl-carousel owl-theme">
+                    <div class="item"> <a href="https://www.научим.online/programming-2024"><img class="img-fluid" src="static/img/achievements/the-art-of-code-2024.jpg" alt="Искусство кода 2024" target="_blank"/></a> </div>
+                    <div class="item"> <a href="https://it-cube48.ru/archives/27276"><img class="img-fluid" src="https://it-cube48.ru/wp-content/uploads/2024/04/Dlya_kartinok_vk_23-24.1.jpg" alt="Первому разработчику приготовиться (май 2024)" target="_blank"/></a> </div>
+                    <div class="item"> <a href="https://it-cube48.ru/archives/27407"><img class="img-fluid" src="https://it-cube48.ru/wp-content/uploads/2024/05/Wy3S2D81J2M.jpg" alt="ITКон 2024" target="_blank"/></a> </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==============================================
     КОМАНДА
     =============================================== -->
 
-    <section id="team">
+    <section id="team" class="team">
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-md-6 col-sm-offset-2 col-md-offset-3 text-center title-container">
-                    <!-- /// Title /// -->
-                    <h2 class="section-title">А это мы</h2>
+
+                    <h2 class="section-title"><i class="fa-solid fa-users"></i><br>А это мы</h2>
                     <p>те, кто творят...</p>
                 </div>
             </div>
             <div class="row">
-                <!-- /// TEAM MEMBERS /// -->
+
                 <div class="col-md-4 member wow fadeInLeft" data-wow-duration=".5s" data-wow-delay=".2s">
                     <div class="member-img justify-content-center">
                         <img src="static/img/team/team1.png" class="img-fluid" alt="team-1">
                     </div>
                     <h4>Глазунов Никита</h4>
-                    <p>Team Leader</p>
+                    <p>Team Leader <i class="fa-solid fa-gear"></i></p>
                     <ul class="social-media justify-content-center">
                         <li><a href="https://taplink.cc/nekitbelkin" target="_blank"><i class="fa-solid fa-globe"></i></a></li>
                         <li><a href="https://github.com/ERKYNIS" target="_blank"><i class="fa-brands fa-github"></i></a></li>
@@ -153,7 +169,7 @@
                         <img src="static/img/team/team-2.png" class="img-fluid" alt="team-2">
                     </div>
                     <h4>Платов Данил</h4>
-                    <p>Ведущий дизайнер</p>
+                    <p>Ведущий дизайнер <i class="fa-solid fa-paintbrush"></i></p>
                     <ul class="social-media justify-content-center">
                         <li><a href="https://github.com/Landik48" target="_blank"><i class="fa-brands fa-github"></i></a></li>
                         <li><a href="https://t.me/Landik_48" target="_blank"><i class="fa-brands fa-telegram"></i></a></li>
@@ -165,11 +181,54 @@
                         <img src="static/img/team/team-3.png" class="img-fluid" alt="team-3">
                     </div>
                     <h4>Кузнецов Владимир</h4>
-                    <p>Ведущий backend'ер</p>
+                    <p>Ведущий backend'ер <i class="fa-solid fa-terminal"></i></p>
                     <ul class="social-media justify-content-center">
                         <li><a href="https://github.com/Vovan4ikYT" target="_blank"><i class="fa-brands fa-github"></i></a></li>
                         <li><a href="https://t.me/ZoV4uK" target="_blank"><i class="fa-brands fa-telegram"></i></a></li>
                         <li><a href="https://vk.com/id515318242" target="_blank"><i class="fa-brands fa-vk"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==============================================
+    НАСТАВНИКИ
+    =============================================== -->
+
+    <section id="mentors" class="team">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-md-6 col-sm-offset-2 col-md-offset-3 text-center title-container">
+
+                    <h2 class="section-title"><i class="fa-solid fa-people-group"></i><br>Наши наставники</h2>
+                    <p>помогают и поддерживают</p>
+                </div>
+            </div>
+            <div class="row">
+
+                <div class="col-md-4 member wow fadeInLeft" data-wow-duration=".5s" data-wow-delay=".2s">
+                    <div class="member-img justify-content-center">
+                        <img src="https://it-cube48.ru/wp-content/uploads/2022/08/Кузнецов-АИ.png" class="img-fluid" alt="team-1">
+                    </div>
+                    <h4><span>Кузнецов</span><br>Артём Игоревич</h4>
+                    <p>Педагог по направлению «Основы программирования на Java» и «Основны программирования на C++» <i class="fa-solid fa-c"></i><i class="fa-solid fa-plus"></i><i class="fa-solid fa-plus"></i><br>ЦДО ЛО Центр дополнительного образования «IT-Куб» <i class="fa-solid fa-cube"></i></p>
+                </div>
+                <div class="col-md-4 member wow bounceIn" data-wow-duration=".5s" data-wow-delay=".4s">
+                    <div class="member-img justify-content-center">
+                        <img src="https://it-cube48.ru/wp-content/uploads/2022/08/Булохов.png" class="img-fluid" alt="team-2">
+                    </div>
+                    <h4><span>Булохов</span><br>Александр Николаевич</h4>
+                    <p>Старший методист отдела IT-bit <i class="fa-solid fa-code"></i><br>ЦДО ЛО Центр дополнительного образования "IT-Куб" <i class="fa-solid fa-cube"></i></p>
+                </div>
+                <div class="col-md-4 member wow fadeInRight" data-wow-duration=".5s" data-wow-delay=".2s">
+                    <div class="member-img justify-content-center">
+                        <img src="https://it-cube48.ru/wp-content/uploads/2020/03/Ложков.png" class="img-fluid" alt="team-3">
+                    </div>
+                    <h4><span>Ложков</span><br>Кирилл Германович</h4>
+                    <p>Педагог по направлению «Лицей Академии Яндекса» <i class="fa-brands fa-yandex"></i><br>ЦДО ЛО Центр дополнительного образования "IT-Куб" <i class="fa-solid fa-cube"></i></p>
+                    <ul class="social-media justify-content-center">
+                        <li><a href="https://vk.com/shich_zlo" target="_blank"><i class="fa-brands fa-vk"></i></a></li>
                     </ul>
                 </div>
             </div>
@@ -185,7 +244,7 @@
             <div class="row">
                 <div class="col-md-6 col-sm-offset-2 col-md-offset-3 text-center title-container">
 
-                    <h2 class="section-title">Технологии</h2>
+                    <h2 class="section-title"><i class="fa-solid fa-microchip"></i><br>Технологии</h2>
                     <p>то, чем мы пользуемся, когда создаём свои проекты...</p>
                 </div>
             </div>
