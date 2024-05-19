@@ -87,17 +87,19 @@ $(document).ready(function () {
     headerOrgOffset = $('#header').height();
 
     $(window).scroll(function () {
-        var currentScroll = $(this).scrollTop();
-        if (currentScroll > headerOrgOffset) {
-            if (currentScroll > previousScroll) {
-                $('.navbar').slideUp(500);
+        console.log(window.outerWidth);
+        if (window.outerWidth <= 992) {
+            var currentScroll = $(this).scrollTop();
+            if (currentScroll > headerOrgOffset) {
+                if (currentScroll > previousScroll) {
+                    $('.navbar').slideUp(500);
+                } else {
+                    $('.navbar').slideDown(500);
+                }
             } else {
-                $('.navbar').slideDown(500);
+                    $('.navbar').slideDown(500);
             }
-        } else {
-                $('.navbar').slideDown(500);
+            previousScroll = currentScroll;
         }
-        previousScroll = currentScroll;
     });
-
 });
