@@ -83,4 +83,21 @@ $(document).ready(function () {
 
     });
 
+    var previousScroll = 0,
+    headerOrgOffset = $('#header').height();
+
+    $(window).scroll(function () {
+        var currentScroll = $(this).scrollTop();
+        if (currentScroll > headerOrgOffset) {
+            if (currentScroll > previousScroll) {
+                $('.navbar').slideUp(500);
+            } else {
+                $('.navbar').slideDown(500);
+            }
+        } else {
+                $('.navbar').slideDown(500);
+        }
+        previousScroll = currentScroll;
+    });
+
 });
