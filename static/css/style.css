@@ -275,10 +275,6 @@ h4 {
     transform: translate(0.01em, 0.2em)
 }
 
-#mentors img {
-    display: none;
-}
-
 #mentors .row h4 span {
     color: #4ac18c;
 }
