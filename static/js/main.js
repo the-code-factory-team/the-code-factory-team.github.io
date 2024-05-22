@@ -87,7 +87,6 @@ $(document).ready(function () {
     headerOrgOffset = $('#header').height();
 
     $(window).scroll(function () {
-        console.log(window.outerWidth);
         if (window.outerWidth <= 992) {
             var currentScroll = $(this).scrollTop();
             if (currentScroll > headerOrgOffset) {

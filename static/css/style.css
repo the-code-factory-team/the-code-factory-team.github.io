@@ -59,6 +59,23 @@ h4 {
     font-weight: 500;
 }
 
+.but {
+    background: transparent;
+    box-shadow: 0 0 0 2px white;
+    color: white;
+    padding: 1em 1em;
+    width: 15em;
+    border-radius: 0.4em;
+    text-decoration: none;
+    margin: 1em;
+}
+
+.but:hover {
+    box-shadow: 0 0 7px 2px white;
+    transition: .3s ease-in-out;
+    font-weight: 700;
+}
+
 /*=======================================================
 			NAVBAR
 ========================================================*/
