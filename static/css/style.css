@@ -146,6 +146,27 @@ h4 {
     outline: 0;
 }
 
+.dropdown-menu {
+    background: rgba(0,0,0,.5);
+
+    * {
+        color: #fff;
+    }
+
+    border-radius: 25px;
+    padding: 10px;
+    border: none;
+}
+
+.dropdown-item:hover, .dropdown-item:active, .dropdown-item:focus {
+    color: #f6b50f;
+    background: transparent;
+
+    * {
+        color: #f6b50f;
+    }
+}
+
 /*=======================================================
 			БАННЕР:
 ========================================================*/
@@ -391,6 +412,20 @@ h4 {
 			МОБИЛЬНАЯ АДАПТАЦИЯ:
 ========================================================*/
 
+@media (max-width: 1199px) {
+    .navbar-collapse li {
+        margin-top: 1em;
+    }
+
+    .dropdown-menu {
+        background: transparent;
+        width: 100%;
+    }
+    .nav-item.dropdown {
+        padding-bottom: 10px;
+    }
+}
+
 @media (max-width: 992px) {
     .banner .container .row .caption h1 {
         font-size: 48px;
@@ -404,6 +439,10 @@ h4 {
 @media (max-width: 991px) {
     .navbar-collapse li {
         margin: 1em auto 0 auto;
+    }
+
+    .dropdown-item {
+        margin: 0 auto 0 auto
     }
 
     .navbar-back {
